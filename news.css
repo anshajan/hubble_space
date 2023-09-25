@@ -1,0 +1,139 @@
+.hero-image {
+    background-image: url("img/hs-banner-telescope1-sts125-\(1\).jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .news-text{
+    text-align: center;
+  font-weight: 100;
+  font-size: 45px;
+  }
+  
+
+  
+  .mainParent {
+    height: 90%;
+    width: 80%;
+    background: rgba(222, 222, 222, 0.10);
+    color: #ddd;
+    overflow-y: scroll;
+    border: 4px solid #ddd;
+  }
+  
+  .mainParent {
+    margin: 0.5em
+  }
+  
+  .header {
+    position: sticky;
+    padding: 0.5em;
+    background: #ddd;
+    color: #222;
+    text-align: center;
+  }
+  
+  #header01 {
+    top: 0;
+  }
+  
+  #header02 {
+    top: 2em;
+  }
+  
+  #header03 {
+    top: 4em;
+  }
+  
+  #header04 {
+    top: 6em;
+  }
+  
+  #header05 {
+    top: 8em;
+  }
+  
+  .content {
+    text-align: center
+  }
+  .new-text{
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .new-text-1{
+    font-size: 18px;
+    font-weight: 200;
+  }
+
+  .card__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .card__form input {
+    margin-top: 10px;
+    outline: 0;
+    background: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    padding: 0.6em;
+    border-radius: 14px;
+    border: 1px solid #333;
+    color: black;
+  }
+  
+  .card__form button {
+    border: 0;
+    background: #171e2d;
+    color: #fff;
+    padding: 0.68em;
+    border-radius: 14px;
+    font-weight: bold;
+    width: 140px;
+  }
+  
+  .sign-up:hover {
+    opacity: 0.8;
+  }
+  .form-gmail{
+    margin-inline: 0 !important;
+    border: 0;
+  }
+  .card__form2 button {
+    border: 0;
+    background: #171e2d;
+    color: #fff;
+    padding: 0.68em;
+    border-radius: 14px;
+    font-weight: bold;
+    width: 250px;
+  }
+  .line{
+
+    border-right: 1px solid #171e2d;
+    margin-left: 10px;
+
+  }
+  @media only screen and (max-width:600px) {
+    .line{
+
+      display: none;
+  
+    }
+  }
+.form-gmail1{
+  text-align: center;
+}
+  
